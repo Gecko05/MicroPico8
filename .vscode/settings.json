@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "picoglue.h": "c",
+        "lua.h": "c",
+        "lauxlib.h": "c",
+        "lualib.h": "c",
+        "stdlib.h": "c",
+        "stdio.h": "c",
+        "math.h": "c",
+        "luaconf.h": "c"
+    }
+}
