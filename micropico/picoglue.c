@@ -1,5 +1,10 @@
-#include "picoglue.h"
 #include "../src/ssd1351.h"
+#include "lua/lua.h"
+#include "lua/lauxlib.h"
+#include "lua/lualib.h"
+#include "picoglue.h"
+#include "math.h"
+#include "stdlib.h"
 
 int P8_drawLine(lua_State *L){
   int16_t x0, y0, x1, y1;
